@@ -1,6 +1,7 @@
 Tanggal, waktu mulai pengerjaan : 20 April, pukul 10.00
 Tanggal, waktu selesai perngerjaan : 21 April, pukul 13.00
 STEP LAUNCH WEBSITE
+1. nyalakan laragon dan enable postgreSQL
 1. ketik php artisan serve
 2. npm run dev
 3. php artisan migrate:fresh --seed
