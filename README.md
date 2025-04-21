@@ -1,3 +1,27 @@
+STEP LAUNCH WEBSITE
+1. ketik php artisan serve
+2. npm run dev
+3. php artisan migrate:fresh --seed
+
+Untuk access database
+1. username : postgres
+2. password : postgres
+
+Account defaut untuk akses :
+1. email : admin@gmail.com
+2. password : password
+
+Penjelasan Page
+1. login dan register page : portal untuk masuk dan menyediakan fitur register
+2. register page : halaman untuk mendaftar sebagai user
+3. leads page : halaman untuk data calon customer yang ingin berlangganan, di halaman itu juga terdapat fitur CRUD untuk data calon customer. leads page mengambil id dari produk yang ada dan akan dijadikan pilihan layanan.
+4. products page : halaman untuk menampilkan produk-produk yang ada dan terdapat juga fitur CRUD
+5. projects page : halaman ini menyimpan data calon customer yang sudah mengajukan order yang ingin dipesan dan nama produk yang dipesan. halaman ini juga sebagai tempat manager untuk approval calon customer
+6. customers page : jika sudah di approve, maka akan menampilkan data customer dan layanan yang sudah disorder
+
+Flow Program
+1. product -> leads -> projects -> customers
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
